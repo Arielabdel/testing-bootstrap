@@ -7,27 +7,8 @@ JS  : <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstra
 
 Pemakaian offline (download folder-file bootstrap):
 Struktur project:
-Nama_project/
-│
-├── HTML/
-│   └── index.html
-│
-├── css/
-│   └── style.css
-│
-├── js/
-│   └── script.js
-│
-├── bootstrap/
-│   ├── css/
-│   │   └──  bootstrap.min.css (file css bootstrap kalian)
-│   │
-│   └── js/
-│       └── bootstrap.bundle.min.js (file js bootstrap kalian)
-│
-└── assets/
-    ├── images/
-    └── fonts/
+<img width="422" height="603" alt="image" src="https://github.com/user-attachments/assets/298056af-6b55-47fe-9a80-064e2fb9e822" />
+
 
 Pemakaian:
 CSS (pasang di head, sebelum link untuk file css kalian):
