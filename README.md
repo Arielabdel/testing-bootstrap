@@ -13,5 +13,6 @@ Struktur project:
 Pemakaian:
 CSS (pasang di head, sebelum link untuk file css kalian):
   <link rel="stylesheet" href="/project/bootstrap/css/bootstrap.min.css">
+  
 JS (Pasang di body, sebelum link untuk file js kalian):
   <script src="/project/bootstrap/js/bootstrap.bundle.min.js"></script>
