@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="/testing/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/testing/css/style.css">
 </head>
 <body>
 
@@ -22,18 +22,18 @@
   <div class="row">
     <div class="col-sm-4">
       <h3>Column 1</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>
     </div>
     <div class="col-sm-4">
       <h3>Column 2</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>
     </div>
     <div class="col-sm-4">
       <h3>Column 3</h3>        
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>
     </div>
   </div>
 </div><br><hr><br>
@@ -63,7 +63,7 @@
                 Login
             </button>
 
-            <!-- Contoh tombol secondary -->
+            <!--Contoh tombol secondary-->
             <button class="btn btn-outline-secondary w-100 mt-2">
                 Submit
             </button>
@@ -99,8 +99,83 @@
     <button type="button" class="btn btn-primary btn-lg">Large</button>
     <button type="button" class="btn btn-primary">Default</button>
     <button type="button" class="btn btn-primary btn-sm">Small</button>
-    <hr>
-  
+    <hr><br><hr>
+
+
+    <!--Impleementasi Bootstrap dengan Javascript-->
+<div class="container text-center">
+        <h2 class="mb-4">Implementasi bootstrap dengan javascript:</h2>
+        <p class="text-muted">Klik tombolnya untuk memunculkan notifikasi!</p>
+
+        <!--Trigger Button-->
+        <button id="showToastBtn" class="btn btn-primary btn-lg">Tampilkan Notifikasi</button>
+</div>
+
+    <!--Toast Container-->
+<div class="position-fixed bottom-0 end-0 p-3" style="z-index: 9999">
+    <div id="myToast" class="toast align-items-center text-bg-success border-0" role="alert">
+          <div class="d-flex">
+              <div class="toast-body">
+                  Horeeee
+              </div>
+              <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast"></button>
+          </div>
+      </div>
+</div><br><hr><br>
+
+
+<div class="container mt-5">
+  <h2 class="text-center mb-4">Carousel Demo</h2>
+
+  <div class="carousel-container">
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+
+      <!--Indikator-->
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2"></button>
+      </div>
+
+      <!--Wajib ada carousel-inner-->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="/testing/assets/img/Amour.jpg" class="d-block w-100" alt="Gambar 1">
+          <div class="overlay"></div>
+          <div class="caption-text">Embrace of Thorns</div>
+        </div>
+
+        <div class="carousel-item">
+          <img src="/testing/assets/img/Ayano1.jpg" class="d-block w-100" alt="Gambar 2">
+          <div class="overlay"></div>
+          <div class="caption-text">Mekaku-Dan No.0</div>
+        </div>
+
+        <div class="carousel-item">
+          <img src="/testing/assets/img/EGOIST ALTER EGO.jpg" class="d-block w-100" alt="Gambar 3">
+          <div class="overlay"></div>
+          <div class="caption-text">EGOIST: ALTER EGO</div>
+        </div>
+      </div>
+
+      <!--Tombol next/prev-->
+      <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+
+      <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+
+    </div>
+  </div>
+</div>
+
+<br><hr><br>
+
+
+<script src="/testing/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="/testing/js/script.js"></script>
 
 </body>
 </html>
